@@ -1,0 +1,26 @@
+{
+  "name": "rb-doubleclick",
+  "version": "0.0.1",
+  "description": "Makes it possible to double-click a line in Review Board to comment. Only works on reviewboard.mozilla.org for now.",
+  "main": "background.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-zip": "^3.1.0",
+    "merge-stream": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeconley/rb-doubleclick.git"
+  },
+  "author": "Mike Conley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeconley/rb-doubleclick.git"
+  },
+  "homepage": "https://github.com/mikeconley/rb-doubleclick#readme"
+}
